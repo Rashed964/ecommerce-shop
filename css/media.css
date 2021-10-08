@@ -1,0 +1,227 @@
+@media(max-width:991px){
+    .nav-item .icon{
+        display: none;
+    }
+    .nav-item .icon_item{
+        display: inherit;
+    }
+    .navbar-light .navbar-brand {
+        width: 36%;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        text-align: center;
+        margin: auto;
+        color: #ff523b;
+    }
+}
+
+@media(max-width:576px) and (min-width:320px){
+    header h1 {
+        font-size: 25px;
+        margin-top: 90px;
+    }
+    .btn_banner {
+        padding: 7px 10px;
+        font-size: 15px;
+    }
+    .btn_order {
+        padding: 7px 10px;
+        font-size: 15px;
+    }
+    .navbar-light .navbar-toggler {
+        margin: auto;
+        margin-top: 18px;
+    }
+    .category_img {
+        margin-bottom: 15px;
+    }
+    .carousel_img  {
+        margin-top: 15px;
+    }
+    .customization a {
+        margin-bottom: 15px;
+    }
+    .price{
+        text-align: center;
+    }
+    .offer_img, .offer{
+        margin-bottom: 15px;
+    }
+    .signup_part form input {
+        padding: 10px 10px;
+        width: 80%;
+        margin-bottom: 15px;
+    }
+    .signup_part form button[ type="submit"]{
+        padding: 7px 10px;
+    }
+    .testimonials_hover {
+        margin-bottom: 20px;
+    }
+    .brand_img {
+        text-align: center;
+    }
+    .footer_logo img {
+        width: 62%;
+        margin-top: 25px;
+    }
+    .social_icon h3 {
+        margin-top: 25px;
+    }
+    .footer_logo p {
+        margin-top: 16px;
+    }
+    footer {
+        text-align: center;
+    }
+    .social_icon ul {
+        width: 45%;
+        margin: auto;
+    }
+    .category_img img {
+        margin-bottom: 15px;
+    }
+    .customization a h4 {
+        margin-top: 20px;
+    }
+}
+
+@media(max-width:768px) and (min-width:576px){
+    header h1 {
+        font-size: 30px;
+        margin-top: 120px;
+    }
+    .navbar-light .navbar-brand {
+        width: 35%;
+    }
+    .category_img img {
+        margin-bottom: 18px;
+    }
+    .super_menu p {
+        font-size: 10px;
+    }
+    .super h4 {
+        padding: 8px 4px;
+    }
+    .customization a h4 {
+        padding: 6px 4px;
+        font-size: 16px;
+    }
+    .customization_text h3 {
+        margin-top: 20px;
+        font-size: 16px;
+    }
+    .btn_source {
+        padding: 5px 6px;
+        font-size: 10px;
+    }
+    .price h4{
+        font-size: 16px;
+    }
+    .product_name span {
+        font-size: 14px;
+    }
+    .product_name h5 {
+        font-size: 18px;
+        color: #ff523b;
+    }
+    .cart_button a {
+        font-size: 14px;
+        padding: 5px 3px;
+    }
+    .product_name p {
+        font-size: 18px;
+    }
+    .product_name p del{
+        font-size: 14px;
+    }
+    .product_img::before {
+        width: 90%;
+        height: 90%;
+        clip-path: circle(78px at 5% 0%);
+    }
+    .offer_price h6 {
+        font-size: 16px;
+    }
+    .offer_price {
+        top: 30px;
+        left: 30px;
+        transform: translate(-30%, -30%);
+    }
+    .signup_part form input {
+        padding: 14px 10px;
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .signup_part form button[ type="submit"] {
+        padding: 9px 20px;
+        font-size: 18px;
+    }
+}
+@media(max-width:991px) and (min-width:768px){
+    header h1 {
+        font-size: 32px;
+        margin-top: 69px;
+    }
+    .super_menu p {
+        font-size: 10px;
+    }
+    .super h4 {
+        padding: 10px 2px;
+        font-size: 20px;
+    }
+    .customization a h4 {
+        font-size: 15px;
+    }
+    .customization_text h3 {
+        font-size: 18px;
+    }
+    .btn_source {
+        padding: 5px 9px;
+        font-size: 11px;
+    }
+    .signup_part form input {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .signup_part form button[ type="submit"] {
+        padding: 8px 18px;
+        font-size: 20px;
+    }
+}
+
+@media(max-width:1200px) and (min-width:991px){
+    header h1 {
+        font-size: 37px;
+        margin-top: 115px;
+    }
+    .super_menu p {
+        font-size: 10px;
+    }
+    .super h4 {
+        padding: 10px 1px;
+    }
+    .customization a h4 {
+        font-size: 15px;
+    }
+    .customization_text h3 {
+        font-size: 18px;
+    }
+    .btn_source {
+        padding: 5px 9px;
+    }
+    .signup_part form input {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .signup_part form button[ type="submit"] {
+        padding: 9px 18px;
+    }
+}
+
+@media(max-width:320px){
+    .social_icon ul {
+        width: 78%;
+        margin: auto;
+    }
+}
